@@ -18,7 +18,7 @@
    - `npx expo start`
    - Opcional (web): `npm run web`
 
-> Para probar en celular: abre Expo Go y escanea el QR del servidor de Expo. :contentReference[oaicite:0]{index=0}
+> Para probar en celular: abre Expo Go y escanea el QR del servidor de Expo. 
 
 ---
 
@@ -26,25 +26,25 @@
 - `@react-navigation/native` (núcleo de navegación)
 - `@react-navigation/bottom-tabs` (menú inferior por pestañas)
 - `react-native-screens` (mejora rendimiento de pantallas)
-- `react-native-safe-area-context` (manejo de áreas seguras: notch, barras del sistema)
-- Opcional para íconos: `@expo/vector-icons` :contentReference[oaicite:1]{index=1}
+- `react-native-safe-area-context`
+- Opcional para íconos: `@expo/vector-icons` 
 
 ---
 
 ## Qué aprendió (3 a 8 líneas)
-Aprendí a estructurar un proyecto básico en React Native con Expo y a identificar el rol de `App` como componente raíz. Implementé navegación inferior por Tabs para cambiar entre pantallas. Organicé pantallas en archivos separados y apliqué estilos con `StyleSheet` y layout con Flexbox. También practiqué estado local con `useState` en una pantalla (contador) para entender el re-renderizado. :contentReference[oaicite:2]{index=2}
+Aprendí a estructurar un proyecto básico en React Native con Expo y a identificar el rol de `App` como componente raíz. Implementé navegación inferior por Tabs para cambiar entre pantallas. Organicé pantallas en archivos separados y apliqué estilos con `StyleSheet` y layout con Flexbox. También practiqué estado local con `useState` en una pantalla (contador) para entender el re-renderizado. 
 
 ---
 
 ## Qué es una pantalla
-Una **pantalla** es un componente que se registra en el sistema de navegación y representa una vista completa de la app (por ejemplo: Home, Perfil, Acerca). :contentReference[oaicite:3]{index=3}
+Una **pantalla** es un componente que se registra en el sistema de navegación y representa una vista completa de la app (por ejemplo: Home, Perfil, Acerca).
 
 ---
 
 ## Qué es un Tab
-Un **Tab** es una pestaña del menú inferior (tab bar) que permite cambiar entre pantallas registradas. Cada tab está asociado a una pantalla (componente) y normalmente muestra un texto y/o un ícono. :contentReference[oaicite:4]{index=4}
+Un **Tab** es una pestaña del menú inferior (tab bar) que permite cambiar entre pantallas registradas. Cada tab está asociado a una pantalla (componente) y normalmente muestra un texto y/o un ícono.
 
 ---
 
 ## Qué hace `NavigationContainer`
-`NavigationContainer` envuelve la app y actúa como contenedor raíz de la navegación: mantiene el estado de navegación (qué pantalla está activa) y conecta la app con React Navigation para que el cambio entre pantallas funcione correctamente. :contentReference[oaicite:5]{index=5}
+`NavigationContainer` envuelve la app y actúa como contenedor raíz de la navegación: mantiene el estado de navegación (qué pantalla está activa) y conecta la app con React Navigation para que el cambio entre pantallas funcione correctamente.
